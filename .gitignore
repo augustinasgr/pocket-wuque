@@ -1,0 +1,15 @@
+# .NET / Visual Studio build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Local diagnostics and exported support bundles
+*.log
+wuque-probe-*.json
+
+# Android reverse-engineering input is not part of the Windows app
+*.apk
+sources/
+resources/
